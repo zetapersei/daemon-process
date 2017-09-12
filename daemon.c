@@ -42,12 +42,10 @@ int main(int argc, char *argv[]) {
     close(STDOUT_FILENO);
     close(STDERR_FILENO);
 
-    // Il cuore del nostro deamon:
-    while (1) {
-        syslog(LOG_INFO, "I'm alive\n");
-        sleep(15);
+      //get code here
+       
     }
 
-    // Quando il nostro deamon ha finito il suo lavoro:
+    
     closelog();
 }
